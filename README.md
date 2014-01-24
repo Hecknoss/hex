@@ -1,8 +1,23 @@
 HEX
+---------------------------------
 
-hex is my first exploration of github. Don't expect anything good anytime soon.
-
-We all have to start somewhere.
+Documentation of the experience of learning github.
 
 
-Hecknoss
+INTRUCTIONS:
+
+Parenthesis are to be ignored and replaced with appropriate content.
+
+Commitment:
+#################################
+
+git init
+git add (insert filename here)
+git commit -m ("commit comments")
+git remote add origin (eg.. https://github.com/Hecknoss/hex.git)
+git push -u origin master
+
+#################################
+
+
+by Hecknoss
