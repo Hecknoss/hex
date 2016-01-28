@@ -11,7 +11,7 @@ class PrimeFinder {
 			long i = 1L;
 			int count = 0;
 			
-			while(i < n){
+			while(i < (n / 2)){
 				if(n % i == 0){
 					count++;
 					System.out.println(i + " % " + n + " = " + i/n);
@@ -30,13 +30,12 @@ class PrimeFinder {
 			//System.out.println("n = " + n);
 			n++;
 		}
-		return bigOne;
+		return bigOne; //biggest prime
 	}
 	
 	public static void main(String args[]){
 		
 		long num = 600851475143L; //change this value.
-		
 		System.out.println("the biggest prime number in " + num + " is: " + PrimeFinder.Primes(num));
 	}
 }
