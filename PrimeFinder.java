@@ -11,7 +11,7 @@ class PrimeFinder {
 			long i = 1L;
 			int count = 0;
 			
-			while(i < (n / 2)){
+			while(i < (Math.sqrt(n))){
 				if(n % i == 0){
 					count++;
 					System.out.println(i + " % " + n + " = " + i/n);
