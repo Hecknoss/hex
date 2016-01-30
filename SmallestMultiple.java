@@ -25,12 +25,12 @@ class SmallestMultiple
 			{
 				if(y % x != 0)
 				{
-					System.out.println(y + " % " + x + " = " + y%x);
+				//	System.out.println(y + " % " + x + " = " + y%x);
 					break;
 				}
 				count++;
 				x++;
-				System.out.println("count = " + count);
+				//System.out.println("count = " + count);
 			}	
 			
 			if(count > num - 1)
