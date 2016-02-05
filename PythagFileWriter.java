@@ -1,9 +1,5 @@
 package learn;
 
-//
-//taken PythagTrip.java and added a file writer for practice
-//
-
 import java.util.Arrays;
 import java.io.*;
 
@@ -55,8 +51,12 @@ class PythagFileWriter {
 		BufferedWriter bw = null;
 		
 		try {
+			File dir = new File("test");
 			File file = new File("test/output.txt");
-			
+			if(!dir.exists()) {
+				dir.mkdir();
+			}
+						
 			if (!file.exists()) {
 				file.createNewFile();
 			}
